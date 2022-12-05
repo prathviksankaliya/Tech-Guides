@@ -42,7 +42,7 @@ header{
 .title{
 	font-size:xx-large; 
 	color:black;
-	margin-left: -240px;
+	margin-left: -250px;
 }
 .navbar{
 	display: flex;
@@ -57,13 +57,6 @@ header{
 .navbar a:hover{
 	color: var(--main-color);
 }
-/* #menu-icon{
-	font-size: 34px;
-	color: var(--text-color);
-	z-index: 10001;
-	cursor: pointer;
-	display: none;
-} */
 
 #page-header{
     background-image: url("../img/banner.jpg");
@@ -87,16 +80,16 @@ section{
 	padding: 80px 13%;
 }
 .home{
-	/* position: relative; */
+	position: relative;
 	height: 100vh;
 	width: 100%;
-	/* padding-top: 50px; */
+	padding-top: 50px;
 	background: url(../img/background.png);
-	/* background-size: cover; */
-	/* background-position: center; */
+	background-size: cover;
+	background-position: center;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	/* gap: 1rem; */
+	gap: 1rem;
 	align-items: center;
 }
 .home-text h1{
