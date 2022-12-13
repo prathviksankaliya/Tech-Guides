@@ -149,11 +149,11 @@ section{
 	width: 100%;
 }
 
-header.sticky{
+/* header.sticky{
 	background: var(--bg-color);
 	padding: 12px 13%;
 	box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
-}
+} */
 
 .container{
 	padding: 70px 13%;
@@ -280,6 +280,7 @@ header.sticky{
 	background: var(--bg-color);
 	padding: 0px 0px 10px 0px;
 	border-radius: 20px;
+	border: 1px solid black;
 	box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
 	transition: all .40s ease;
 }
@@ -579,7 +580,7 @@ form textarea{
 	}
 	.navbar a:hover{
 		color: var(--bg-color);
-		transform: translateY(-5px);
+		/* transform: translateY(-5px); */
 	}
 	.navbar.open{
 		right: 0;

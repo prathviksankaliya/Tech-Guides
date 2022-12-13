@@ -1,0 +1,5 @@
+left things:
+1. view and donwload pdfs
+2. shadow effect
+3. scroller images
+4. all pdfs 
